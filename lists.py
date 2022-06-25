@@ -29,5 +29,7 @@ print(myFaveFoods)
 print(mixedLists)
 
 mixedLists.pop()
-
+# mixedLists.push("New Thing")
+#.append("") is method of pushing items in to list
 print(mixedLists)
+
