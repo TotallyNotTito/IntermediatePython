@@ -62,4 +62,10 @@ list_ints = []
 for i in range(10) :
     list_ints.append(i)
 
-change_list = list_ints[i + 3 for i in list_ints]
+print(list_ints)
+
+
+change_ints = [i + 3 for i in list_ints]
+
+print("OG list of integers: ", list_ints)
+print("Change of list of integers: ", change_ints)
