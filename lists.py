@@ -64,7 +64,8 @@ for i in range(10) :
 
 print(list_ints)
 
-
+#the operation is fo individual list items 
+#of list containing data
 change_ints = [i + 3 for i in list_ints]
 
 print("OG list of integers: ", list_ints)
