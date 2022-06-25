@@ -40,8 +40,17 @@ print("step list: ", mixedLists[::2])
 """
 
 #demonstrating shared memory
-new_list = mixed_lists
+#new_list = mixed_lists
+"""
+methods for copying memory
+- .copy()
+- list(list_variable)
+- list_variable[:]
+"""
 
-new_list.append("Sharing memory")
+#new_list = mixed_lists.copy()
+#new_list = list(mixed_lists)
+new_list = mixed_lists[:]
+new_list.append("Not Sharing memory")
 print("mixed_list items: ",mixed_lists)
 print("new_list items: ", new_list)
