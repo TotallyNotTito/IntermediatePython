@@ -50,7 +50,16 @@ methods for copying memory
 
 #new_list = mixed_lists.copy()
 #new_list = list(mixed_lists)
+"""
 new_list = mixed_lists[:]
 new_list.append("Not Sharing memory")
 print("mixed_list items: ",mixed_lists)
 print("new_list items: ", new_list)
+"""
+
+#LIST COMPREHENSION
+list_ints = []
+for i in range(10) :
+    list_ints.append(i)
+
+change_list = list_ints[i + 3 for i in list_ints]
