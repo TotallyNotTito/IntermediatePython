@@ -19,11 +19,15 @@ if (len(myFaveFoods) >= len(mixedLists)) :
     len(myFaveFoods), " number of items")
     myFaveFoods.append("Burritos")
     mixedLists.insert(len(mixedLists),False)
-    
+
 else : 
     print("myFaveFoods is not as long as mixed list:", 
     len(mixedLists), " number of items")
     mixedLists.append(False)
 
 print(myFaveFoods)
+print(mixedLists)
+
+mixedLists.pop()
+
 print(mixedLists)
