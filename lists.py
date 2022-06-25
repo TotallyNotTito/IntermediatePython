@@ -34,7 +34,8 @@ else :
 #print(mixedLists)
 
 new_list = myFaveFoods + mixedLists
-print(mixedLists, ":::")
-print(mixedLists[1:3])
+print("original mixe list: ",mixedLists)
+print("sliced list: ",mixedLists[1:3])
+print("step list: ", mixedLists[::2])
 
 
