@@ -4,11 +4,11 @@ myFaveFoods = ["Mac & Cheese", "Hot Dogs", "Mango", "Carrots"]
 """
 for i in myFaveFoods :
     print(i, end=", ")
+
 """
-
-mixedLists = [5, True, myFaveFoods]
+mixed_lists = [5, True, myFaveFoods, False, "Lemon"]
 #print(mixedLists[2][2])
-
+"""
 for i in mixedLists :
     if myFaveFoods in mixedLists :
         print("yes")
@@ -37,5 +37,11 @@ new_list = myFaveFoods + mixedLists
 print("original mixe list: ",mixedLists)
 print("sliced list: ",mixedLists[1:3])
 print("step list: ", mixedLists[::2])
+"""
 
+#demonstrating shared memory
+new_list = mixed_lists
 
+new_list.append("Sharing memory")
+print("mixed_list items: ",mixed_lists)
+print("new_list items: ", new_list)
