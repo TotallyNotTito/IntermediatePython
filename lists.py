@@ -25,11 +25,16 @@ else :
     len(mixedLists), " number of items")
     mixedLists.append(False)
 
-print(myFaveFoods)
-print(mixedLists)
+#print(myFaveFoods)
+#print(mixedLists)
 
-mixedLists.pop()
+#mixedLists.pop()
 # mixedLists.push("New Thing")
 #.append("") is method of pushing items in to list
-print(mixedLists)
+#print(mixedLists)
+
+new_list = myFaveFoods + mixedLists
+print(mixedLists, ":::")
+print(mixedLists[1:3])
+
 
